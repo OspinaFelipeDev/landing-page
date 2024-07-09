@@ -1,10 +1,11 @@
 {
-  "name": "async-landing",
+  "name": "landing-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d src"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "https://OspinaFelipeDev.github.io/async-landing"
+  "homepage": "https://OspinaFelipeDev.github.io/landing-page"
 }
